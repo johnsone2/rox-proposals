@@ -39,7 +39,7 @@
                 <li class="active"><a href="../index.html">Home</a></li>
                 <li><a href="../index.html">About</a></li>
                 <li><a href="../index.html">Packages</a></li>
-                <li><a href="blog/">Blog</a></li>
+                <li><a href="../blog/">Blog</a></li>
                 <li><a href="../index.html">Fairytale Endings</a></li>
                 <li><a href="../index.html">Social</a></li>
             </ul>
