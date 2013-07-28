@@ -36,7 +36,7 @@
     <div class="row-fluid">
         <div class="span3">
             <ul class="nav nav-pills nav-stacked" id="side-nav" >
-                <li class="active"><a href="">Home</a></li>
+                <li class="active"><a href="../index.html">Home</a></li>
                 <li><a href="../index.html">About</a></li>
                 <li><a href="../index.html">Packages</a></li>
                 <li><a href="blog/">Blog</a></li>
