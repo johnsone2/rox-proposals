@@ -37,11 +37,14 @@
         <div class="span3">
             <ul class="nav nav-pills nav-stacked" id="side-nav" >
                 <li class="active"><a href="../index.html">Home</a></li>
-                <li><a href="../index.html">About</a></li>
-                <li><a href="../index.html">Packages</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../packages.html">Packages</a></li>
                 <li><a href="../blog/">Blog</a></li>
-                <li><a href="../index.html">Fairytale Endings</a></li>
-                <li><a href="../index.html">Social</a></li>
+                <li><a href="../fte.html">Fairytale Endings</a></li>
             </ul>
         </div>
         <div class="span9">
+            <div>
+                <h1>Blog</h1>
+
+            </div>
