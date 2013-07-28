@@ -34,19 +34,19 @@
                 </div>
                 <div class="pull-right" style="margin-top: 20px">
                     <a href="#">
-                        <img alt="Facebook" title="Facebook" src="img/glyphicons_410_facebook.png"/>
+                        <img alt="Facebook" title="Facebook" src="../img/glyphicons_410_facebook.png"/>
                     </a>
                     <a href="#">
-                        <img alt="Twitter" title="Twitter" src="img/glyphicons_411_twitter.png"/>
+                        <img alt="Twitter" title="Twitter" src="../img/glyphicons_411_twitter.png"/>
                     </a>
                     <a href="#">
-                        <img alt="Instagram" title="Instagram" src="img/glyphicons_412_instagram.png"/>
+                        <img alt="Instagram" title="Instagram" src="../img/glyphicons_412_instagram.png"/>
                     </a>
                     <a href="#">
-                        <img alt="Pinterest" title="Pinterest" src="img/glyphicons_399_pinboard.png"/>
+                        <img alt="Pinterest" title="Pinterest" src="../img/glyphicons_399_pinboard.png"/>
                     </a>
                     <a href="#">
-                        <img alt="LinkedIn" title="LinkedIn" src="img/glyphicons_397_linked_in.png"/>
+                        <img alt="LinkedIn" title="LinkedIn" src="../img/glyphicons_397_linked_in.png"/>
                     </a>
                 </div>
             </div>
@@ -55,10 +55,10 @@
     <div class="row-fluid">
         <div class="span3">
             <ul class="nav nav-pills nav-stacked" id="side-nav" >
-                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="../about.html">About</a></li>
                 <li><a href="../packages.html">Packages</a></li>
-                <li><a href="../blog/">Blog</a></li>
+                <li class="active"><a href="../blog/">Blog</a></li>
                 <li><a href="../fte.html">Fairytale Endings</a></li>
             </ul>
         </div>
