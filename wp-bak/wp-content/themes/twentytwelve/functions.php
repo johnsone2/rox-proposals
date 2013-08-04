@@ -148,8 +148,8 @@ function twentytwelve_scripts_styles() {
      * Loads the Internet Explorer specific stylesheet.
      */
     wp_enqueue_style( 'twentytwelve-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentytwelve-style' ), '20121010' );
-//    wp_enqueue_style( 'bootstrap-core', 'http://www.roxproposals.com/css/bootstrap.css' );
-//    wp_enqueue_style( 'bootstrap-theme', 'http://www.roxproposals.com/css/rox-proposals.css' );
+    wp_enqueue_style( 'bootstrap-core', 'http://www.roxproposals.com/css/bootstrap.css' );
+    wp_enqueue_style( 'bootstrap-theme', 'http://www.roxproposals.com/css/rox-proposals.css' );
     $wp_styles->add_data( 'twentytwelve-ie', 'conditional', 'lt IE 9' );
 }
 add_action( 'wp_enqueue_scripts', 'twentytwelve_scripts_styles' );
