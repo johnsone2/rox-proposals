@@ -1,6 +1,95 @@
+@font-face {
+    font-family: 'custom-cursive';
+    src: url('HomemadeApple.ttf');
+}
 
-
-.nav.nav-pills.nav-stacked {
+.nav.nav-list.nav-stacked {
+    font-family: custom-cursive;
     width: 100%;
+    font-size: xx-large;
+    color: navy;
+}
 
+#side-nav li {
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
+
+
+#side-nav li a {
+    text-align: center;
+    color: navy;
+}
+
+#side-nav li:last-child a {
+    line-height: 100%;
+}
+
+.side-nav-menu {
+    height: 100%;
+    padding-top: 5%;
+}
+
+
+
+.nav-list .active a{
+    background-color: #26266E !important;
+    /*border-style: ridge;*/
+    /*border-width: 5px;*/
+    /*border-color: navy;*/
+    /*border-right: none;*/
+    color: white !important;
+}
+
+
+.row-fluid [class*="span"]{
+    /*margin-left: 0px !important;*/
+}
+
+.mainBody {
+    /*background-color: #d3d3d3;*/
+    /*font-family: georgia, serif;*/
+    /*height: 100%;*/
+    /*border-style: ridge;*/
+    /*border-width: 5px;*/
+    /*border-color: navy;*/
+    /*border-left: none;*/
+}
+
+.home-img {
+    left: 50%;
+    margin-left: -200px;
+    position: relative;
+}
+
+#page-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+#content {
+    height: auto;
+    position: absolute;
+    width: 980px;
+    text-align: left;
+    padding: 0px;
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.center {
+    height: auto;
+    width: 980px;
+    margin: auto;
+    text-align: left;
+    padding: 0px;
+}
+
+.background {
+    background-image: url("../img/possible background.jpg");
 }
