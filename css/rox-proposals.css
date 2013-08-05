@@ -28,13 +28,12 @@
 
 .side-nav-menu {
     height: 100%;
-    padding-top: 5%;
 }
 
 
 
 .nav-list .active a{
-    background-color: #26266E !important;
+    background-image: url("../img/possible background2.png");
     /*border-style: ridge;*/
     /*border-width: 5px;*/
     /*border-color: navy;*/
@@ -49,7 +48,8 @@
 
 .mainBody {
     /*background-color: #d3d3d3;*/
-    /*font-family: georgia, serif;*/
+    font-family: helvetica, serif;
+    margin-top: 30px;
     /*height: 100%;*/
     /*border-style: ridge;*/
     /*border-width: 5px;*/
@@ -58,9 +58,8 @@
 }
 
 .home-img {
-    left: 50%;
-    margin-left: -200px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 #page-container {
@@ -91,5 +90,25 @@
 }
 
 .background {
-    background-image: url("../img/possible background.jpg");
+    /*background-image: url("../img/possible background2.png");*/
+}
+
+.catch-phrase {
+    font-size: xx-large;
+    margin-left: 40%;
+    color: #19196C;
+    font-style: italic;
+}
+
+.rox-header {
+    border-bottom: 20px;
+    border-bottom-image: url("../img/possible background2.png");
+}
+
+.info {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    /*text-align: center;*/
 }
