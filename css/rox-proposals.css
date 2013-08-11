@@ -112,3 +112,15 @@
     line-height: 20px;
     /*text-align: center;*/
 }
+
+.light-background {
+    background-color: #E6E6E6;
+}
+
+.media-heading {
+    text-align: center;
+}
+
+.media-body {
+    border: 2px solid #19196C;
+}
