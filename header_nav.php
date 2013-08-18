@@ -1,3 +1,6 @@
+<?php
+DEFINE("ROOT","/");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +12,11 @@
     <title>Rox Proposals</title>
 
     <!--Rox Proposal bootstrap overrides-->
-    <link href="css/rox-proposals.css" rel="stylesheet">
+    <link href="<?php echo ROOT?>css/rox-proposals.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <script src="js/jquery.js" type="text/javascript"></script>
+    <link href="<?php echo ROOT?>css/bootstrap.css" rel="stylesheet">
+    <script src="<?php echo ROOT?>js/jquery.js" type="text/javascript"></script>
 
     <script>
     </script>
@@ -29,24 +32,24 @@
             <!-- Header-->
             <div class="row-fluid rox-header">
                 <div class="span12">
-                    <img src="img/logo.png" style="height: 200px;"/>
+                    <img src="<?php echo ROOT?>img/logo.png" style="height: 200px;"/>
                     <div>
                         <div class="catch-phrase">Create your perfect day, her perfect way</div>
                         <div class="pull-right" style="margin-top: 20px">
                             <a href="#">
-                                <img alt="Facebook" title="Facebook" src="img/glyphicons_410_facebook.png"/>
+                                <img alt="Facebook" title="Facebook" src="<?php echo ROOT?>img/glyphicons_410_facebook.png"/>
                             </a>
                             <a href="#">
-                                <img alt="Twitter" title="Twitter" src="img/glyphicons_411_twitter.png"/>
+                                <img alt="Twitter" title="Twitter" src="<?php echo ROOT?>img/glyphicons_411_twitter.png"/>
                             </a>
                             <a href="#">
-                                <img alt="Instagram" title="Instagram" src="img/glyphicons_412_instagram.png"/>
+                                <img alt="Instagram" title="Instagram" src="<?php echo ROOT?>img/glyphicons_412_instagram.png"/>
                             </a>
                             <a href="#">
-                                <img alt="Pinterest" title="Pinterest" src="img/glyphicons_399_pinboard.png"/>
+                                <img alt="Pinterest" title="Pinterest" src="<?php echo ROOT?>img/glyphicons_399_pinboard.png"/>
                             </a>
                             <a href="#">
-                                <img alt="LinkedIn" title="LinkedIn" src="img/glyphicons_397_linked_in.png"/>
+                                <img alt="LinkedIn" title="LinkedIn" src="<?php echo ROOT?>img/glyphicons_397_linked_in.png"/>
                             </a>
                         </div>
                     </div>
@@ -57,9 +60,9 @@
                 <div class="span3 side-nav-menu">
                     <ul class="nav nav-list nav-stacked" id="side-nav" >
                         <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="packages.php">Packages</a></li>
-                        <li><a href="blog/">Blog</a></li>
+                        <li><a href="<?php echo ROOT?>about.php">About</a></li>
+                        <li><a href="<?php echo ROOT?>packages.php">Packages</a></li>
+                        <li><a href="<?php echo ROOT?>blog/">Blog</a></li>
                         <!--<li><a href="fte.html">Fairytale Endings</a></li>-->
                         <li><a></a></li>
                     </ul>
