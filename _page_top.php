@@ -17,6 +17,7 @@ DEFINE("ROOT","/");
     <!-- Bootstrap core CSS -->
     <link href="<?php echo ROOT?>css/bootstrap.css" rel="stylesheet">
     <script src="<?php echo ROOT?>js/jquery.js" type="text/javascript"></script>
+    <script src="<?php echo ROOT?>js/roxprops.js" type="text/javascript"></script>
 
     <script>
     </script>
