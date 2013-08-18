@@ -125,6 +125,10 @@ body {
     margin-bottom: 10px;
 }
 
+.info:first-child{
+    padding-top: 10px;
+}
+
 .info {
     margin-bottom: 20px;
     font-size: 22px;
