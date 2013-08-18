@@ -51,6 +51,10 @@ body {
     height: 100%;
 }
 
+#rox-logo img {
+    height: 100%;
+}
+
 #rox-social-bar {
     position: relative;
     background-color: white;

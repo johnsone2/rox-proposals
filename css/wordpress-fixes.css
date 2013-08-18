@@ -1,0 +1,15 @@
+#page {
+    margin: 10px 0;
+}
+
+#masthead {
+    display: none;
+}
+
+#colophon {
+    display: none;
+}
+
+.entry-title a {
+    color: navy;
+}
