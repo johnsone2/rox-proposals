@@ -73,8 +73,9 @@ body {
 }
 
 .nav .active a{
-    background-image: url("../img/possible background2.png");
-    color: white;
+    /*background-image: url("../img/possible background2.png");*/
+    color: navy;
+    background-color: #EEE;
 }
 
 .nav .active a:hover{
