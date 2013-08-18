@@ -1,4 +1,4 @@
-<? include 'header_nav.php'; ?>
+<? include '_page_top.php'; ?>
 
 
 <div class="span1"></div>
@@ -36,4 +36,4 @@
     validator.addValidation("email", "email", "Please provide a valid email address.");
 </script>
 
-<? include 'footer.php'; ?>
+<? include '_page_bottom.php'; ?>
