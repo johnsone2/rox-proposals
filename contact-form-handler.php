@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: ej
- * Date: 8/18/13
- * Time: 1:29 PM
- * To change this template use File | Settings | File Templates.
- */
 
 $errors = '';
 $myemail = 'info@roxproposals.com';
@@ -44,5 +37,4 @@ if(empty($errors)) {
 } else {
     echo($errors);
 }
-
 ?>
