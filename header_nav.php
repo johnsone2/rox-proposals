@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/form_validator.js" type="text/javascript"></script>
 
     <script>
     </script>
@@ -61,6 +62,7 @@
                         <li><a href="packages.php">Packages</a></li>
                         <li><a href="blog/">Blog</a></li>
                         <!--<li><a href="fte.html">Fairytale Endings</a></li>-->
+                        <li><a href="contact.php">Contact us</a></li>
                         <li><a></a></li>
                     </ul>
                 </div>
