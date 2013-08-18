@@ -1,8 +1,5 @@
 <?php include 'header_nav.php'; ?>
 
-<div class="span1"></div>
-<div class="span8 mainBody">
-
     <div>
 
         <div>
@@ -23,5 +20,4 @@
         </div>
 
     </div>
-</div>
 <?php include 'footer.php'; ?>

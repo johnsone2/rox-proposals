@@ -22,7 +22,7 @@
 </head>
 
 <body>
-<div id="page-container">
+<div id="page-container" style="background-color: green;">
     <div class="center">
 
         <div id="content" class="container-fluid">
@@ -64,3 +64,5 @@
                         <li><a></a></li>
                     </ul>
                 </div>
+                <div class="span1"></div>
+                <div class="span8 mainBody">
