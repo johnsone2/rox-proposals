@@ -22,7 +22,7 @@
 </head>
 
 <body>
-<div id="page-container" style="background-color: green;">
+<div id="page-container">
     <div class="center">
 
         <div id="content" class="container-fluid">
