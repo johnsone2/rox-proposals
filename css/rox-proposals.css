@@ -103,20 +103,11 @@ body {
     padding: 0px;
 }
 
-.background {
-    /*background-image: url("../img/possible background2.png");*/
-}
-
 .catch-phrase {
     font-size: xx-large;
     margin-left: 40%;
     color: #19196C;
     font-style: italic;
-}
-
-.rox-header {
-    border-bottom: 20px;
-    border-bottom-image: url("../img/possible background2.png");
 }
 
 .info {

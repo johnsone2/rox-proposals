@@ -1,8 +1,5 @@
 <?php include 'header_nav.php'; ?>
 
-<div class="span1"></div>
-
-<div class="span8">
     <div>
         <h1>Meet the Rox-star duo</h1>
 
@@ -69,6 +66,5 @@
         </div>
 
     </div>
-</div>
 
 <?php include 'footer.php'; ?>
