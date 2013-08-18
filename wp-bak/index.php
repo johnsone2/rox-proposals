@@ -1,6 +1,6 @@
 <?php
 
-require('../wordpress_header_nav.php');
+require('../header_nav_wp.php');
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.

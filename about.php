@@ -1,4 +1,4 @@
-<?php include 'header_nav.php'; ?>
+<?php include '_page_top.php'; ?>
 
     <h1 style="text-align: center;">Meet the Rox-star duo</h1>
     <div class="row-fluid">
@@ -35,4 +35,4 @@
     </div>
     <div class="row-fluid"></div>
 
-<?php include 'footer.php'; ?>
+<?php include '_page_bottom.php'; ?>

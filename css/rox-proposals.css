@@ -27,7 +27,6 @@
 }
 
 body {
-
     /* Gradient for long browsers */
     /* From: http://www.colorzilla.com/gradient-editor/#_ */
     background: #0f0034; /* Old browsers */
@@ -42,72 +41,84 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0034', endColorstr='#1c1649',GradientType=1 ); /* IE6-8 */
 }
 
-.nav-list .active a{
-    background-image: url("../img/possible background2.png");
-    /*border-style: ridge;*/
-    /*border-width: 5px;*/
-    /*border-color: navy;*/
-    /*border-right: none;*/
-    color: white !important;
+#rox-header-wrapper {
+    height: 220px;
 }
 
-
-.row-fluid [class*="span"]{
-    /*margin-left: 0px !important;*/
-}
-
-.mainBody {
-    /*background-color: #d3d3d3;*/
-    font-family: helvetica, serif;
-    margin-top: 30px;
-    /*height: 100%;*/
-    /*border-style: ridge;*/
-    /*border-width: 5px;*/
-    /*border-color: navy;*/
-    /*border-left: none;*/
-}
-
-.contact-form {
-    font-size: large;
-}
-
-.home-img {
-    position: relative;
-    margin-bottom: 10px;
-}
-
-#page-container {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-}
-
-#content {
-    height: auto;
-    position: absolute;
-    width: 980px;
-    text-align: left;
-    padding: 0px;
+#rox-logo {
     background-color: white;
-    float: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 10px;
+    height: 100%;
 }
 
-.center {
-    height: auto;
-    width: 980px;
-    margin: auto;
-    text-align: left;
-    padding: 0px;
+#rox-social-bar {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    height: 100%;
 }
 
 .catch-phrase {
+    position: absolute; bottom: 0; right: 0;
+    padding: 10px;
     font-size: xx-large;
-    margin-left: 40%;
     color: #19196C;
     font-style: italic;
+}
+
+.vertical-spacer {
+    height: 25px;
+}
+
+#rox-nav-wrapper {
+    background-color: white;
+    height: 100%;
+}
+
+.nav {
+    font-family: "bookman old style",serif;
+    font-size: xx-large;
+    color: navy;
+}
+
+.nav.nav-list {
+    padding: 0;
+}
+
+.nav li {
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
+.nav li a {
+    text-align: center;
+    color: navy;
+}
+
+.nav .active a{
+    /*background-image: url("../img/possible background2.png");*/
+    color: navy;
+    background-color: #EEE;
+}
+
+.nav .active a:hover{
+    /*color: #808080;*/
+}
+
+#side-nav li:first-child {
+    margin-top: 50px;
+}
+
+#rox-content-wrapper {
+    padding: 0 10px;
+    background-color: white;
+    font-family: helvetica, serif;
+}
+
+/* Home */
+.home-img {
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .info {
@@ -118,6 +129,12 @@ body {
     /*text-align: center;*/
 }
 
+/* About */
+.light-background {
+    background-color: #E6E6E6;
+}
+
+/* Packages */
 .media-heading {
     text-align: center;
 }
