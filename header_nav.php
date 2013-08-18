@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/roxprops.js" type="text/javascript"></script>
     <script src="js/form_validator.js" type="text/javascript"></script>
 
     <script>
