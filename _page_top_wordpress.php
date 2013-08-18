@@ -1,3 +1,3 @@
 <?php
 DEFINE("ROOT","../");
-include 'header_nav.php';
+include '_page_top.php';

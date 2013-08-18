@@ -1,4 +1,4 @@
-<?php include 'header_nav.php'; ?>
+<?php include '_page_top.php'; ?>
     <div>
         <h1>Packages</h1>
 
@@ -69,4 +69,4 @@
             </div>
         </div>
     </div>
-<?php include 'footer.php'; ?>
+<?php include '_page_bottom.php'; ?>
