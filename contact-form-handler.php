@@ -1,12 +1,11 @@
 <?php
-
-$errors = '';
-$myemail = 'info@roxproposals.com';
+$errors = array();
+$myemail = 'jondooger@gmail.com';
 if(empty($_POST['name'])) {
-    $errors .= 'Please provide your name.';
+    array_push($errors, 'Please provide your name.');
 }
 if(empty($_POST['email'])) {
-    $errors .= 'Please provide an email address';
+    array_push($errors, 'Please provide an email address');
 }
 
 $name = $_POST['name'];
@@ -14,27 +13,34 @@ $email = $_POST['email'];
 $number = $_POST['phone'];
 
 if (!empty($_POST['email']) && !preg_match(
-    "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",
-    $email))
+        "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",
+        $email))
 {
-    $errors .= "\n Please provide a valid email address";
+    array_push($errors, "Please provide a valid email address");
 }
 
 if(empty($errors)) {
     $to = $myemail;
-    $subject = 'Engagement request from $name';
-    $body = 'Somebody wants to get engaged! \n'.
-            'Their name is $name. \n'.
-            'Their email address is $email. \n';
+    $subject = 'Engagement request from '.$name;
+    $body = 'Somebody wants to get engaged!'. PHP_EOL .
+        'Their name is .'. $name . PHP_EOL.
+        'Their email address is '. $email . PHP_EOL;
     if(!empty($number)) {
-        $body .= 'Their number is $number.';
+        $body .= 'Their number is '.$number;
     }
 
-    $headers = 'From: $myemail\n';
-    $headers = 'Reply-To: $email';
+    $headers = 'From: '.$myemail;
+    $headers = 'Reply-To: '.$email;
     mail($to, $subject, $body, $headers);
 
+    include '_page_top.php';
+    include '_email_success.php';
+    include '_page_bottom.php';
 } else {
-    echo($errors);
+    include '_page_top.php';
+    foreach($errors as $error) {
+        echo("<p class='text-error'>".$error."</p>");
+    }
+    include '_page_bottom.php';
 }
-?>
+
