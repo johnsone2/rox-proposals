@@ -1,6 +1,6 @@
 <?php
 $errors = array();
-$myemail = 'jondooger@gmail.com';
+$myemail = 'info@roxproposals.com';
 if(empty($_POST['name'])) {
     array_push($errors, 'Please provide your name.');
 }
