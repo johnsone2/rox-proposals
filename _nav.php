@@ -1,8 +1,7 @@
-<ul id="side-nav" class="nav ">
-    <li class="active"><a href="<?php echo ROOT?>index.php">Home</a></li>
-    <li><a href="<?php echo ROOT?>about.php">About</a></li>
-    <li><a href="<?php echo ROOT?>packages.php">Packages</a></li>
-    <li><a href="<?php echo ROOT?>blog/">Blog</a></li>
-    <!--<li><a href="fte.html">Fairytale Endings</a></li>-->
-    <li><a href="<?php echo ROOT?>contact.php/">Contact Us</a></li>
-</ul>
+<div id="nav" class="nav">
+    <a href="<?php echo ROOT?>index.php" class="active">HOME</a>
+    <a href="<?php echo ROOT?>about.php">ABOUT</a>
+    <a href="<?php echo ROOT?>packages.php">PACKAGES</a>
+    <a href="<?php echo ROOT?>blog/">BLOG</a>
+    <a href="<?php echo ROOT?>contact.php/">HELLO!</a>
+</div>

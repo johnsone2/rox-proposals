@@ -27,20 +27,22 @@ DEFINE("ROOT","/");
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span1"> <!-- center the whole page --> </div>
-        <div class="span10">
+        <div id="content" class="span10">
 
             <div class="row-fluid vertical-spacer"></div>
 
             <!-- Header-->
             <div id="rox-header-wrapper" class="row-fluid">
+                <div class="span4"></div>
                 <?php include '_header.php'; ?>
             </div>
 
             <div class="row-fluid vertical-spacer"></div>
 
             <div id="rox-body-wrapper" class="row-fluid">
-                <div id="rox-nav-wrapper" class="span3">
-                    <?php include '_nav.php'; ?>
+                <div  class="span1">
                 </div>
-                <div id="rox-content-wrapper" class="span9">
+                <div id="rox-content-wrapper" class="span10">
+                    <?php include '_nav.php'; ?>
+                    <div class="row-fluid vertical-spacer"></div>
                     <div class="container-fluid" style="padding:0">

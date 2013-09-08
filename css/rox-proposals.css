@@ -4,6 +4,7 @@
     width: 100%;
     font-size: xx-large;
     color: navy;
+
 }
 
 #side-nav li {
@@ -26,19 +27,21 @@
     height: 100%;
 }
 
-body {
+#content {
+    border: ridge navy;
     /* Gradient for long browsers */
     /* From: http://www.colorzilla.com/gradient-editor/#_ */
-    background: #0f0034; /* Old browsers */
+    /*background: #0f0034; *//* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyMSUiIHN0b3AtY29sb3I9IiMwYTAwMzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMxYzE2NDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: url('../img/bokehTransparent.png') no-repeat, -moz-linear-gradient(left,  #0f0034 21%, #1c1649 75%); /* FF3.6+ */
-    background: url('../img/bokehTransparent.png') no-repeat, -webkit-gradient(linear, left top, right top, color-stop(21%,#0f0034), color-stop(75%,#1c1649)); /* Chrome,Safari4+ */
-    background: url('../img/bokehTransparent.png') no-repeat, -webkit-linear-gradient(left,  #0f0034 21%,#1c1649 75%); /* Chrome10+,Safari5.1+ */
-    background: url('../img/bokehTransparent.png') no-repeat, -o-linear-gradient(left,  #0f0034 21%,#1c1649 75%); /* Opera 11.10+ */
-    background: url('../img/bokehTransparent.png') no-repeat, -ms-linear-gradient(left,  #0f0034 21%,#1c1649 75%); /* IE10+ */
-    background: url('../img/bokehTransparent.png') no-repeat, linear-gradient(to right,  #0f0034 21%,#1c1649 75%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0034', endColorstr='#1c1649',GradientType=1 ); /* IE6-8 */
+    /*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyMSUiIHN0b3AtY29sb3I9IiMwYTAwMzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMxYzE2NDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);*/
+    /*background: url('../img/bokehTransparent.png') no-repeat, -moz-linear-gradient(left,  #0f0034 21%, #1c1649 75%); *//* FF3.6+ */
+    /*background: url('../img/bokehTransparent.png') no-repeat, -webkit-gradient(linear, left top, right top, color-stop(21%,#0f0034), color-stop(75%,#1c1649)); *//* Chrome,Safari4+ */
+    /*background: url('../img/bokehTransparent.png') no-repeat, -webkit-linear-gradient(left,  #0f0034 21%,#1c1649 75%); *//* Chrome10+,Safari5.1+ */
+    /*background: url('../img/bokehTransparent.png') no-repeat, -o-linear-gradient(left,  #0f0034 21%,#1c1649 75%); *//* Opera 11.10+ */
+    /*background: url('../img/bokehTransparent.png') no-repeat, -ms-linear-gradient(left,  #0f0034 21%,#1c1649 75%); *//* IE10+ */
+    /*background: url('../img/bokehTransparent.png') no-repeat, linear-gradient(to right,  #0f0034 21%,#1c1649 75%); *//* W3C */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0034', endColorstr='#1c1649',GradientType=1 ); *//* IE6-8 */
+
 }
 
 #rox-header-wrapper {
@@ -46,9 +49,11 @@ body {
 }
 
 #rox-logo {
-    background-color: white;
+    /*background-color: white;*/
     padding: 10px;
     height: 100%;
+    /*width: 50%;*/
+    margin: auto;
 }
 
 #rox-logo img {
@@ -83,30 +88,28 @@ body {
     font-family: "bookman old style",serif;
     font-size: xx-large;
     color: navy;
-}
-
-.nav.nav-list {
-    padding: 0;
-}
-
-.nav li {
+    /*opacity: .5;*/
     margin-bottom: 50px;
     line-height: 50px;
+    text-align: center;
 }
 
-.nav li a {
+.nav a {
     text-align: center;
     color: navy;
+    opacity: .5;
+    border-bottom: navy solid 2px;
 }
 
-.nav .active a{
-    /*background-image: url("../img/possible background2.png");*/
+.nav a.active {
     color: navy;
-    background-color: #EEE;
+    opacity: 1;
 }
 
-.nav .active a:hover{
-    /*color: #808080;*/
+.nav a:hover{
+    text-decoration: none;
+    color: navy;
+    opacity: 1;
 }
 
 #side-nav li:first-child {
@@ -130,6 +133,7 @@ body {
     font-size: 22px;
     font-weight: 500;
     line-height: 20px;
+    font-family: ''
     /*text-align: center;*/
 }
 

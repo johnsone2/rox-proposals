@@ -38,7 +38,6 @@ function expandAndContractPackageSpans(clickedDiv, remainingDiv1, remainingDiv2,
         remainingDiv1.removeClass('span6').removeClass('span4').addClass('span3');
         remainingDiv2.removeClass('span6').removeClass('span4').addClass('span3');
     } else {
-        debugger;
         clickedDiv.removeClass('span6').removeClass('span3').addClass('span4');
         remainingDiv1.removeClass('span6').removeClass('span3').addClass('span4');
         remainingDiv2.removeClass('span6').removeClass('span3').addClass('span4');
