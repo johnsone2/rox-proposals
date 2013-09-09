@@ -1,9 +1,6 @@
 <? include '_page_top.php'; ?>
 
-
-<div class="span1"></div>
-<div class="span8 mainBody">
-    <form method="post" class="contact-form" name="contact_form" action="contact-form-handler.php">
+    <form method="post" id="contact-form" name="contact_form" action="contact-form-handler.php">
         <table style="border: none;">
             <tr>
                 <td style="text-align: right;">Your name:</td>
@@ -27,7 +24,6 @@
 <!--        Phone Number: <input type="text" name="phone"> </br>-->
 
     </form>
-</div>
 
 <script type="text/javascript">
     var validator = new Validator("contact_form");
