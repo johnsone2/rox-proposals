@@ -16,18 +16,18 @@ DEFINE("ROOT","/");
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo ROOT?>css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo ROOT?>css/bootstrap-responsive.css" rel="stylesheet">
     <script src="<?php echo ROOT?>js/jquery.js" type="text/javascript"></script>
+    <script src="<?php echo ROOT?>js/bootstrap-collapse.js"></script>
     <script src="<?php echo ROOT?>js/roxprops.js" type="text/javascript"></script>
     <script src="<?php echo ROOT?>js/form_validator" type="text/javascript"></script>
-    <script>
-    </script>
 </head>
 
 <body>
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span1"> <!-- center the whole page --> </div>
-        <div id="content" class="span10">
+        <div class="span2"> <!-- center the whole page --> </div>
+        <div id="content" class="span8">
 
             <div class="row-fluid vertical-spacer"></div>
 
