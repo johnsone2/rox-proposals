@@ -1,7 +1,7 @@
 <div id="nav" class="nav">
-    <a href="<?php echo ROOT?>index.php" class="active">HOME</a>
-    <a href="<?php echo ROOT?>about.php">ABOUT</a>
-    <a href="<?php echo ROOT?>packages.php">PACKAGES</a>
-    <a href="<?php echo ROOT?>blog/">BLOG</a>
-    <a href="<?php echo ROOT?>contact.php/">HELLO!</a>
+    <a id="index" href="<?php echo ROOT?>index.php" class="navitem active">HOME</a>
+    <a id="about" href="<?php echo ROOT?>about.php" class="navitem">ABOUT</a>
+    <a id="packages" href="<?php echo ROOT?>packages.php" class="navitem">PACKAGES</a>
+    <a id="blog" href="<?php echo ROOT?>blog/" class="navitem">BLOG</a>
+    <a id="contact" href="<?php echo ROOT?>contact.php/" class="navitem">HELLO!</a>
 </div>

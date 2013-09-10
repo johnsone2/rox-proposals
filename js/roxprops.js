@@ -1,3 +1,12 @@
+window.onready = function() {
+    var setToActiveFunction = function(id) {
+        $('.navitem').removeClass('active');
+        $('#'+id).addClass('active');
+    }
+    var currentPage = $(location).attr('pathname').split('.')[0].substr(1);
+    setToActiveFunction(currentPage);
+}
+
 function displayCBio() {
     $('#cdiv').toggleClass('active-transition-pic');
     $('#ldiv').removeClass('active-transition-pic');
@@ -72,3 +81,4 @@ function displayEventPlanning() {
 function displayPremiumProposal() {
     displayPackage($('#pp'), $('#ppi'), $('#ep'), $('#epi'), $('#cp'), $('#cpi'));
 }
+
