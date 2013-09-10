@@ -11,8 +11,12 @@
                 <td><input type="text" name="email"></td>
             </tr>
             <tr>
-                <td>Phone number:</td>
+                <td style="text-align: right;">Phone number:</td>
                 <td><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td>What else do you know?</td>
+                <td><textarea rows="4" cols="6" form="contact-form"></textarea></td>
             </tr>
             <tr>
                 <td></td>

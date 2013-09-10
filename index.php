@@ -1,9 +1,14 @@
 <?php include '_page_top.php'; ?>
+<div class="row-fluid">
+    <div class="span1"></div>
+    <div class="span11">
+        <img src="img/ring-on-finger.jpg" height="200px" width="300px" class="home-img"/>
+        <img src="img/ring-on-finger.jpg" height="200px" width="300px" class="home-img"/>
+    </div>
+</div>
 <div class="span12">
     <div>
         <p class="info">Colorado’s premier boutique proposal planning service, Rox, guarantees to create your perfect day, her perfect way, every time!</p>
-        <img src="img/ring-on-finger.jpg" height="200px" width="300px" class="home-img"/>
-        <img src="img/ring-on-finger.jpg" height="200px" width="300px" class="home-img"/>
 
         <p class="info">
             With specialized development, planning and execution, the moment you pop the question is guaranteed to be a flawless occasion that will be remembered for a lifetime.

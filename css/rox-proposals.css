@@ -28,7 +28,7 @@
 }
 
 #content {
-    border: ridge navy;
+    border: double navy 7px;
     /* Gradient for long browsers */
     /* From: http://www.colorzilla.com/gradient-editor/#_ */
     /*background: #0f0034; *//* Old browsers */
